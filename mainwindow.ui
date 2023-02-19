@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>898</width>
-    <height>600</height>
+    <width>1024</width>
+    <height>768</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,6 +19,9 @@
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
        <widget class="QScrollArea" name="scrollArea">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
         <property name="widgetResizable">
          <bool>true</bool>
         </property>
@@ -27,8 +30,8 @@
           <rect>
            <x>0</x>
            <y>0</y>
-           <width>637</width>
-           <height>490</height>
+           <width>763</width>
+           <height>658</height>
           </rect>
          </property>
         </widget>
@@ -136,14 +139,14 @@
           <item>
            <widget class="QPushButton" name="pushButton_4">
             <property name="text">
-             <string>PushButton</string>
+             <string>Підтвердити</string>
             </property>
            </widget>
           </item>
           <item>
            <widget class="QPushButton" name="pushButton_7">
             <property name="text">
-             <string>PushButton</string>
+             <string>Розрахунок</string>
             </property>
            </widget>
           </item>
@@ -158,14 +161,14 @@
       <item>
        <widget class="QPushButton" name="pushButton">
         <property name="text">
-         <string>PushButton</string>
+         <string>Прикріпити файл</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QPushButton" name="pushButton_2">
         <property name="text">
-         <string>PushButton</string>
+         <string>Зберегти результат</string>
         </property>
        </widget>
       </item>
@@ -178,7 +181,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>898</width>
+     <width>1024</width>
      <height>26</height>
     </rect>
    </property>
